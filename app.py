@@ -14,5 +14,5 @@ msg.set_content('Você ganhou uma recarga de R$ 10.')
 
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
     smtp.login(EMAIL, PASSWORD)
-    smtp.send_message(msg)
+    smtp.send_message(msg)gg
 
